@@ -1,0 +1,11 @@
+package com.bestbuy.pages;
+
+public class LoginPage extends BaseTest {
+
+	@FindBy(xpath = "//span[text()='Account']")
+	WebElement accountButton;
+
+	@FindBy(xpath = "//a[text()='Create Account'][@role='button']")
+	WebElement createAccountButton;
+
+}

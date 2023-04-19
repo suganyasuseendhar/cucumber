@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?><testrun name="TestRunner" project="cucumber" tests="1" started="1" failures="0" errors="1" ignored="0">
+  <testsuite name="testrunner.TestRunner" time="0.436">
+    <testsuite name="Login funtionality for W3Schools" time="0.436">
+      <testcase name="Login with correct username and correct password" classname="Login funtionality for W3Schools" time="0.436">
+        <error>io.cucumber.junit.UndefinedStepException: The step 'Navigate to W3Schools' and 3 other step(s) are undefined.
+You can implement these steps using the snippet(s) below:
+
+@Given("Navigate to W3Schools")
+public void navigate_to_w3schools() {
+    // Write code here that turns the phrase above into concrete actions
+    throw new io.cucumber.java.PendingException();
+}
+@When("I enter the username")
+public void i_enter_the_username() {
+    // Write code here that turns the phrase above into concrete actions
+    throw new io.cucumber.java.PendingException();
+}
+@When("I enter the password")
+public void i_enter_the_password() {
+    // Write code here that turns the phrase above into concrete actions
+    throw new io.cucumber.java.PendingException();
+}
+@Then("Click on Login button for successful login")
+public void click_on_login_button_for_successful_login() {
+    // Write code here that turns the phrase above into concrete actions
+    throw new io.cucumber.java.PendingException();
+}
+&#13;
+&#13;
+</error>
+      </testcase>
+    </testsuite>
+  </testsuite>
+</testrun>

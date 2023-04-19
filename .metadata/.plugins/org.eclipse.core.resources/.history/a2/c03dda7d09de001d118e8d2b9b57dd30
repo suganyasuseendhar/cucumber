@@ -1,0 +1,25 @@
+package com.bestbuy.tests;
+
+import com.bestbuy.pages.CreateAccountPage;
+
+public class CreateAccountTest extends CreateAccountPage {
+	
+	
+	public void newAccount() {
+		
+		try {
+			
+			
+			
+		}
+		
+		catch(Exception e) {
+			
+			
+			e.printStackTrace();
+			
+		}
+		
+	}
+
+}

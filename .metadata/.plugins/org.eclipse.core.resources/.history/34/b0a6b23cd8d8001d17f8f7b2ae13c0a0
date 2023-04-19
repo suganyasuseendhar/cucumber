@@ -1,0 +1,36 @@
+package com.w3schools.tests;
+
+import org.openqa.selenium.support.PageFactory;
+import org.testng.annotations.Test;
+
+import com.w3schools.pages.BrowsePage;
+import com.w3schools.pages.LoginPage;
+
+import com.w3schools.utils.BaseTest;
+
+
+public class BrowseTestPage extends BrowsePage {
+	@Test
+	public void searchJava() {
+	
+		LoginTest logintest = PageFactory.initElements(driver, LoginTest.class);
+		logintest.loginW3Schools();
+		
+		BrowsePage search = PageFactory.initElements(driver, BrowsePage.class);
+		
+		search.browseTutorials();
+		
+        search.search();
+		
+		search.learnJavaClick();
+
+		
+	}
+
+
+
+  
+
+}
+
+}

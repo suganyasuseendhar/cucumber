@@ -1,0 +1,17 @@
+package com.bestbuy.utils;
+
+import org.openqa.selenium.WebDriver;
+
+public class BaseTest {
+	public static WebDriver driver= null;
+	
+	
+	public void launchBrowser(String url) {
+		
+		
+		
+		
+		
+	}
+
+}

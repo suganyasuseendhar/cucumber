@@ -1,0 +1,47 @@
+package gluecode;
+
+import io.cucumber.java.en.Given;
+import io.cucumber.java.en.Then;
+import io.cucumber.java.en.When;
+
+public class LoginGlue extends BaseTest {
+
+	@Given("Navigate to W3Schools")
+	public void navigate_to_w3schools() {
+		try {
+			
+			
+
+		} catch (Exception ex) {
+			ex.printStackTrace();
+		}
+	}
+
+	@When("I enter the username")
+	public void i_enter_the_username() {
+		try {
+
+		} catch (Exception ex) {
+			ex.printStackTrace();
+		}
+	}
+
+	@When("I enter the password")
+	public void i_enter_the_password() {
+		try {
+
+		} catch (Exception ex) {
+			ex.printStackTrace();
+		}
+	}
+
+	@Then("Click on Login button for successful login")
+	public void click_on_login_button_for_successful_login() {
+		try {
+
+		} catch (Exception ex) {
+			ex.printStackTrace();
+		}
+	}
+
+}

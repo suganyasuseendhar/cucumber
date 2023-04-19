@@ -1,0 +1,34 @@
+package com.bestbuy.pages;
+
+import org.openqa.selenium.WebElement;
+import org.openqa.selenium.support.FindBy;
+
+public class CreateAccountPage {
+	
+	
+	@FindBy(xpath="//input[@id='firstName']")
+	WebElement firstName;
+	
+	@FindBy(xpath="//input[@id='lastName']")
+	WebElement lastName;
+	
+	@FindBy(xpath="//input[@id='email']")
+	WebElement email;
+	
+	@FindBy(xpath="//input[@id='fld-p1'][@name='fld-p1']")
+	WebElement password;
+	
+	@FindBy(xpath="//input[@id='reenterPassword'][@name='reenterPassword']")
+	WebElement rePassword;
+	
+	@FindBy(xpath="//input[@id='show-hide-password-toggle']/following::span[1]")
+	WebElement toggleMove;
+	
+	@FindBy(xpath="//input[@id='phone'][@name='phone']")
+	WebElement phoneNumber;
+	
+	@FindBy(xpath="//input[@id='is-recovery-phone'][@name='isRecoveryPhone']")
+	WebElement recoveryPhone;
+	
+
+}

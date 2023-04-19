@@ -1,0 +1,27 @@
+package com.bestbuy.tests;
+
+import org.junit.Assert;
+import org.openqa.selenium.support.PageFactory;
+import org.testng.annotations.Test;
+
+import com.bestbuy.pages.LoginPage;
+
+public class LoginTest extends LoginPage {
+
+	@Test
+	public void loginBestbuy() {
+		
+	launchBrowser("https://www.bestbuy.com/");	
+	LoginPage loginpage = PageFactory.initElements(driver, LoginPage.class);
+		
+	loginpage.clickAccountButton();
+	loginpage.Account();
+		
+	
+	String loginTitle = "Best Buy | Official Online Store | Shop Now & Save";
+	Assert.assertEquals(driver.getTitle(), loginTitle);
+	
+	}
+	
+	
+}

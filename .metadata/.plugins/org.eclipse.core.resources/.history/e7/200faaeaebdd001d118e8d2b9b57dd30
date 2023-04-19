@@ -1,0 +1,10 @@
+package com.bestbuy.tests;
+
+import com.bestbuy.pages.LoginPage;
+
+public class LoginTest extends LoginPage {
+
+	
+	
+	
+}

@@ -1,0 +1,27 @@
+package gluecode;
+
+public class LoginGlue {
+	
+	@Given("Navigate to W3Schools")
+	public void navigate_to_w3schools() {
+	    // Write code here that turns the phrase above into concrete actions
+	    throw new io.cucumber.java.PendingException();
+	}
+	@When("I enter the username")
+	public void i_enter_the_username() {
+	    // Write code here that turns the phrase above into concrete actions
+	    throw new io.cucumber.java.PendingException();
+	}
+	@When("I enter the password")
+	public void i_enter_the_password() {
+	    // Write code here that turns the phrase above into concrete actions
+	    throw new io.cucumber.java.PendingException();
+	}
+	@Then("Click on Login button for successful login")
+	public void click_on_login_button_for_successful_login() {
+	    // Write code here that turns the phrase above into concrete actions
+	    throw new io.cucumber.java.PendingException();
+	}
+
+
+}

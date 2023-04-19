@@ -1,0 +1,19 @@
+package com.bestbuy.pages;
+
+public class CreateAccountPage {
+	
+	//input[@id='firstName']
+	
+	//input[@id='lastName']
+	
+	//input[@id='email']
+	
+	//input[@id='fld-p1'][@name='fld-p1']
+	
+	//input[@id='reenterPassword'][@name='reenterPassword']
+	
+	//input[@id='show-hide-password-toggle']/following::span[1]
+	
+	//input[@id='phone'][@name='phone']
+
+}

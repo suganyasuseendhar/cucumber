@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Suite">
+  <test thread-count="5" name="Test">
+    <classes>
+    <!--  
+      <class name="com.w3schools.tests.SignupTest"/>
+      <class name="com.w3schools.tests.VdeosBtnTest"/>
+      <class name="com.w3schools.tests.BillingTest"/>
+      <class name="com.w3schools.tests.CoursesAndExams2Test"/>
+      <class name="com.w3schools.tests.CoursesAndExams1Test"/>
+      <class name="com.w3schools.tests.LogoutTest"/>
+      <class name="com.w3schools.tests.SearchJavaTest"/>
+      <class name="com.w3schools.tests.ProfileTest"/>
+      -->
+      <class name = "com.w3schools.utils.BaseTest"/>
+      <class name="com.w3schools.utils.Reports" />
+      <class name="com.w3schools.tests.LoginTest"/>
+      
+    </classes>
+  </test> <!-- Test -->
+</suite> <!-- Suite -->
